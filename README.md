@@ -62,7 +62,7 @@ Follow these steps to run the application locally. Make sure you have [Node.js](
 * CORS (`cors` package) is enabled on the server to allow the React app (running on port `5173`) to call the API endpoints (running on port `5000`) without origin blocking.
 
 ### 3. Styling & UX Design
-* We used **Tailwind CSS v4** combined with the modern Vite template.
+* I have used **Tailwind CSS v4** combined with the modern Vite template.
 * Custom theme settings and standard Outfit typography were introduced to offer a sleek, dark-themed, glassmorphic layout.
 * Visual skeletons are shown when loading notes to elevate perceived performance.
 
