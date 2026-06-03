@@ -30,7 +30,7 @@ Follow these steps to run the application locally. Make sure you have [Node.js](
    ```
 3. Start the server:
    ```bash
-   npm start
+   npm run dev
    ```
    *The server will run on [http://localhost:5000](http://localhost:5000).*
 
@@ -46,7 +46,7 @@ Follow these steps to run the application locally. Make sure you have [Node.js](
    ```
 3. Start the React development server:
    ```bash
-   npm start
+   npm run dev
    ```
    *The frontend will run on [http://localhost:5173](http://localhost:5173).*
 
@@ -70,7 +70,3 @@ Follow these steps to run the application locally. Make sure you have [Node.js](
 * A customized, state-managed Toast component was built from scratch in React to report notes being created, updated, or deleted. 
 * This avoids bloating the package tree with external libraries and guarantees smooth performance inside React 19.
 
-### 5. Input Validation
-* The server verifies that note creation (`POST`) or updates (`PUT`) include non-empty titles and content.
-* If user inputs fail basic validation, a `400 Bad Request` code with a descriptive JSON error is returned.
-* Clean `try...catch` handlers are present on all backend endpoints to prevent crashes and return `500 Internal Server Error` statuses if unhandled errors occur.
